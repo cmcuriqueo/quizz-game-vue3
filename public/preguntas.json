@@ -1,0 +1,208 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "question": "¿Cuál es la directiva en Vue.js para renderizar una lista de elementos?",
+      "code": "",
+      "answers": [
+        "v-list",
+        "v-repeat",
+        "v-for",
+        "v-loop"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "En Vue.js, ¿cómo se define una propiedad llamada 'mensaje' en el sistema de datos (data)?",
+      "code": "",
+      "answers": [
+        "this.data = { mensaje: '' }",
+        "data: { mensaje: '' }",
+        "this.mensaje = ''",
+        "data() { return { mensaje: '' } }"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 3,
+      "question": "¿Qué evento se dispara cuando un elemento de entrada de texto en Vue.js pierde el foco?",
+      "code": "",
+      "answers": [
+        "@blur",
+        "@focusout",
+        "@focus",
+        "@unfocus"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "question": "En Vue.js, ¿cuál es el ciclo de vida en el que se recomienda realizar llamadas a servicios web?",
+      "code": "",
+      "answers": [
+        "created",
+        "mounted",
+        "updated",
+        "beforeDestroy"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál es la sintaxis correcta para mostrar el contenido de la propiedad 'mensaje' dentro de un elemento <p> en Vue.js?",
+      "code": "",
+      "answers": [
+        "<p>{{ this.mensaje }}</p>",
+        "<p>{{ mensaje }}</p>",
+        "<p>{{ data.mensaje }}</p>",
+        "<p>{{ this.data.mensaje }}</p>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "question": "En Vue.js, ¿cuál es la forma correcta de importar y usar un componente llamado 'MiComponente'?",
+      "code": "",
+      "answers": [
+        "<template>\n  <MiComponente />\n</template>",
+        "<template>\n  <mi-componente />\n</template>",
+        "<template>\n  <MiComponente></MiComponente>\n</template>",
+        "<template>\n  <mi-componente></mi-componente>\n</template>"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Qué opción se usa con la directiva 'v-for' para acceder al índice actual del bucle en Vue.js?",
+      "code": "",
+      "answers": [
+        "v-index",
+        "v-key",
+        "v-value",
+        "v-for-index"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "question": "En Vue.js, ¿qué directiva se utiliza para enlazar una propiedad 'href' a un elemento ancla?",
+      "code": "",
+      "answers": [
+        "v-href",
+        "v-bind:href",
+        "v-a:href",
+        "v-link:href"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es la forma correcta de realizar una interpolación en un atributo 'src' de una etiqueta <img> en Vue.js?",
+      "code": "",
+      "answers": [
+        "<img src={{ imagenUrl }}>",
+        "<img :src='imagenUrl'>",
+        "<img src='{{ imagenUrl }}'>",
+        "<img v-bind:src='imagenUrl'>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "question": "En Vue.js, ¿cuál es la manera de escuchar el evento 'click' en un elemento <button>?",
+      "code": "",
+      "answers": [
+        "<button v-on:click='handleClick'>Click me</button>",
+        "<button @click='handleClick'>Click me</button>",
+        "<button onclick='handleClick()'>Click me</button>",
+        "<button (click)='handleClick'>Click me</button>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "question": "¿Qué hook de ciclo de vida se llama justo antes de que una instancia de Vue sea destruida?",
+      "code": "",
+      "answers": [
+        "beforeDestroy",
+        "destroy",
+        "unmount",
+        "close"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "question": "En Vue.js, ¿cómo se puede condicionar la renderización de un elemento basado en una expresión?",
+      "code": "<template>\n  <div>\n    <p v-if='mostrar'>Este elemento se muestra.</p>\n  </div>\n</template>",
+      "answers": [
+        "v-show",
+        "v-if",
+        "v-display",
+        "v-render"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál es el operador de interpolación utilizado para mostrar el contenido de una propiedad en una plantilla Vue.js?",
+      "code": "",
+      "answers": [
+        "{{}}",
+        "##",
+        "%%",
+        "<<>>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "question": "En Vue.js, ¿qué directiva se utiliza para enlazar una clase CSS a un elemento en función de una expresión?",
+      "code": "",
+      "answers": [
+        "v-style",
+        "v-class",
+        "v-bind:class",
+        "v-css"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 15,
+      "question": "¿Cuál es la sintaxis correcta para definir un método llamado 'calcularTotal' en una instancia de Vue.js?",
+      "code": "",
+      "answers": [
+        "methods: {\n  calcularTotal: function() {}\n}",
+        "function calcularTotal() {}",
+        "def calcularTotal() {}",
+        "calcTotal: () => {}"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "question": "En Vue.js, ¿qué opción se usa para establecer un valor inicial en un campo de entrada?",
+      "code": "",
+      "answers": [
+        "v-default",
+        "v-initial",
+        "v-start",
+        "v-model"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 17,
+      "question": "Dado el siguiente código Vue.js, ¿qué se imprimirá en la consola cuando el botón sea presionado?",
+      "code": "<template>\n  <div>\n    <button @click='saludar'>Saludar</button>\n  </div>\n</template>\n\n<script>\nexport default {\n  methods: {\n    saludar() {\n      console.log('¡Hola, mundo!');\n    }\n  }\n}\n</script>",
+      "answers": [
+        "¡Hola, mundo!",
+        "saludar",
+        "undefined",
+        "null"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+}
