@@ -3,7 +3,7 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import {store} from './store/questions'
+import { store, key } from './store/questions'
 
 import VueCodeHighlight from "vue-code-highlight";
 
@@ -12,6 +12,6 @@ const app = createApp(App)
 
 app.use(VueCodeHighlight)
 app.use(router)
-app.use(store)
+app.use(store, key)
 
 app.mount('#app')
