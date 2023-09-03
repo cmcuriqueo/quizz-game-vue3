@@ -15,6 +15,7 @@
     "typescript": "5.2.2",
     "vue": "^3.3.4",
     "vue-code-highlight": "^0.7.8",
+    "vue-confetti": "^2.3.0",
     "vue-router": "^4.2.4",
     "vuex": "^4.1.0",
     "vuex-persistedstate": "^4.1.0"
